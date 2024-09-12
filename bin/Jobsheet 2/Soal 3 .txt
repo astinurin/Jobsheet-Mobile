@@ -1,0 +1,119 @@
+Soal 3 
+Rangkumlah materi dari codelab ini menjadi poin-poin penting yang dapat Anda gunakan untuk membantu proses pengembangan aplikasi mobile menggunakan framework Flutter.
+
+Jawab :
+
+Pengantar Bahasa Pemrograman Dart - Bagian 1
+
+	Dart adalah inti Flutter, Dart digunakan karena kemampuannya mendukung pembuatan aplikasi berkualitas tinggi dengan pengalaman pengembangan yang optimal.
+
+
+1. Getting Started with Dart
+	Dart bertujuan menggabungkan kelebihan-kelebihan dari Sebagian besar Bahasa tingkat tinggi seperti
+- Productive tooling : menyediakan tools untuk analisis kode, plugin IDE, dan ekosistem paket besar.
+- Garbage Collection : menangani dealokasi memori secara otomatis.
+- Type annotations : meningkatkan keamanan dan konsistensi data.
+- Statically typed : menggunakan type-safe dan type inference meskipun anotasi tipe opsional.
+- Portability : dapat dikompilasi ke JavaScript, ARM, dan x86.
+Memahami Dart penting karena seluruh pengembangan Flutter menggunakan bahasa ini.
+
+
+2. The Evolution of Dart
+- Diluncurkan pda tahun 2011
+- Awalnya berfokus pada pengembangan web untuk menggantikan JavaScript.
+- Rilis stabil Dart terjadi pada tahun 2013.
+- Versi Dart 2.0 dirilis pada akhir 2018, dengan perubahan signifikan.
+- Fokus Dart beralih ke pengembangan mobile, termasuk framework Flutter.
+- Dart menawarkan performa tinggi dan alat modern untuk proyek berskala besar.
+- Memiliki fleksibilitas dengan anotasi tipe opsional dan fitur OOP.
+- Mendukung lintas platform dan terus meningkatkan fitur-fitur untuk relevansi dan fleksibilitas.
+- Tim Flutter memilih Dart sebagai bahasa utama untuk pengembangan aplikasi.
+
+
+3. How Dart works?
+Kode Dart dapat dieksekusi dengan dua cara :
+- Dari virtual machines(VMs)
+- JavaScript compilations
+
+Dart VM and JavaScript compilation
+Kode Dart dapat dieksekusi pada lingkungan yang mendukung bahasa Dart :
+- Runtime systems
+- Dart core libraries
+- Garbage collectors
+
+Eksekusi kode Dart dapat dilakukan dalam dua mode:
+
+Kompilasi Just-In-Time (JIT):
+
+- Kode sumber dikompilasi sesuai kebutuhan (Just in time).
+- Dart VM memuat dan mengkompilasi kode ke kode mesin asli.
+- Digunakan saat menjalankan kode di command line atau - selama pengembangan aplikasi mobile.
+- Mendukung fitur seperti debugging dan hot reload.
+- Kompilasi Ahead-Of-Time (AOT):
+
+- Kode dikompilasi sebelumnya oleh Dart VM.
+- VM berfungsi sebagai sistem runtime yang menyediakan garbage collector dan metode native dari Dart SDK.
+- Menawarkan performa yang lebih baik dibandingkan JIT, tetapi tidak mendukung debugging dan hot reload.
+
+
+4. Introducing the Structure of the Dart Language
+
+Object Orientation
+- Dart adalah bahasa pemrograman berorientasi objek (OOP) yang menggunakan objek untuk menyimpan data (fields) dan kode (methods).
+- Objek dibuat dari kelas (class) yang mendefinisikan field dan method yang dimiliki objek.
+- Fitur OOP di Dart mencakup encapsulation, inheritance, composition, abstraction, dan polymorphism, mirip dengan bahasa lain seperti Java.
+
+Dart Operators
+- Contoh operator aritmatika di Dart:
++ untuk penjumlahan, - untuk pengurangan, * untuk perkalian, / untuk pembagian, ~/ untuk pembagian bulat, % untuk modulus.
+- Operator dapat berperilaku berbeda tergantung pada jenis operan, dan Dart menyediakan shortcut operator seperti +=, -=, *=, /=, dan ~/=.
+
+Increment and Decrement Operators
+Operator increment ++var atau var++ menambah 1 pada variabel, sedangkan --var atau var-- mengurangi 1.
+
+Equality and Relational Operators
+- Operator kesetaraan: == untuk memeriksa kesamaan, != untuk memeriksa perbedaan.
+- Operator relasional: >, <, >=, dan <= untuk membandingkan nilai.
+- Di Dart, == membandingkan isi variabel, bukan referensi, dan tidak ada operator === seperti di JavaScript.
+Logical Operators
+
+Operator logika diterapkan pada operan boolean:
+!expression untuk negasi, || untuk OR, dan && untuk AND.
+
+
+5. Hands-on with Dart
+	Desain Flutter sangat dipengaruhi oleh bahasa Dart, sehingga pemahaman tentang Dart penting untuk keberhasilan menggunakan Flutter.
+	Pengembang dapat mulai menulis kode Dart untuk memahami sintaks dan alat yang tersedia.
+
+- DartPad : DartPad adalah alat online yang memudahkan pemrograman Dart.
+- Mendukung core library Dart, tetapi tidak untuk library VM seperti dart:io.
+- Contoh kode sederhana untuk dijalankan di DartPad:
+
+void main() { 
+  for (int i = 0; i < 5; i++) { 
+    print('hello ${i + 1}'); 
+  } 
+}
+
+Hasil keluaran akan menampilkan "hello 1" hingga "hello 5".
+
+- Fungsi Utama (Main Function):
+	- Dart menggunakan fungsi dan metode untuk 	memisahkan kode.
+	-Fungsi utama (void main()) adalah titik masuk 	eksekusi kode Dart.
+	- Kata kunci void menunjukkan bahwa fungsi tidak 	mengembalikan data.
+	- Fungsi harus didefinisikan di luar kelas, sedangkan metode terkait dengan kelas dan memiliki 	referensi ke instance kelas menggunakan kata kunci 	this.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
