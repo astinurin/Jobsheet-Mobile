@@ -1,0 +1,1 @@
+ D:\\Asti\\Kuliah\\SMT\ 5\\Mobile\\Pemrograman-Mobile\\Jobsheet\ 6\\belanja\\.dart_tool\\flutter_build\\50281998741c76dda2d26466f1725296\\native_assets.yaml: 
